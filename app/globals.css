@@ -1,0 +1,22 @@
+/* globals.css */
+
+/* globals.css */
+html, body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden; /* Prevent horizontal scroll */
+  overflow: visible;
+  background-color: #deac89;
+  /* font-family: var(--font-inter); */
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  flex-grow: 1;
+}
